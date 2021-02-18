@@ -37,3 +37,5 @@ D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcor
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcoreapp3.1\PartyInvites.genruntimeconfig.cache
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcoreapp3.1\PartyInvites.csproj.CopyComplete
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\RsvpForm.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\PartyInvites\obj\Debug\netcoreapp3.1\Razor\Views\Home\ListResponses.cshtml.g.cs

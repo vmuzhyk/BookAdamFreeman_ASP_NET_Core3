@@ -13,5 +13,5 @@ namespace PartyInvites.Models
             responses.Add(response);
         }
     }
-    
+
 }
