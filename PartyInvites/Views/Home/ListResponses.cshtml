@@ -2,15 +2,17 @@
 @{
     Layout = null;
 }
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>Responses</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Responses</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center p-2">
         <h2>Here is the list of people attending the party</h2>
-        <table>
+        <table class="table table-bordered table-striped table-sm">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -20,7 +22,7 @@
             </thead>
             <tbody>
                 @foreach
-                 (PartyInvites.Models.GuestResponse r in Model)
+                (PartyInvites.Models.GuestResponse r in Model)
                 {
                     <tr>
                         <td>@r.Name</td>
@@ -30,5 +32,6 @@
                 }
             </tbody>
         </table>
-    </body>
+    </div>
+</body>
 </html>
