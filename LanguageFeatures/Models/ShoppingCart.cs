@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace LanguageFeatures.Models
 {
-    public class ShoppingCart : IEnumerable<Product>
-    {
-        public IEnumerable<Product> Products { get; set; }
-        public IEnumerator<Product> GetEnumerator() 
+    public class ShoppingCart : IProductSelection 
+    { 
+        private List<Product> products = new List<Product>(); 
+        public ShoppingCart(params Product[] prods) 
         { 
-            return Products.GetEnumerator(); 
+            products.AddRange(prods); 
         }
-        IEnumerator IEnumerable.GetEnumerator() 
-        { 
-            return GetEnumerator(); 
-        }
+        public IEnumerable<Product> Products { get => products; }
     }
 }
