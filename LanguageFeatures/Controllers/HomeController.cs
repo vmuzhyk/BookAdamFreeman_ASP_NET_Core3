@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using LanguageFeatures.Models;
 using System;
 using System.Linq;
+using System.Threading.Tasks;
 namespace LanguageFeatures.Controllers 
 { public class HomeController : Controller 
     { 
-        public ViewResult Index() 
+        /*public ViewResult Index() 
         {
             IProductSelection cart = new ShoppingCart(
                 new Product { Name = "Kayak", Price = 275M }, 
@@ -15,6 +16,11 @@ namespace LanguageFeatures.Controllers
                 new Product { Name = "Corner flag", Price = 34.95M }
                 );
             return View(cart.Names);
+        }*/
+        public async Task<ViewResult> Index()
+        {
+            long? length = await MyAsyncMethods.GetPageLength(); 
+            return View(new string[] { $"Length:{length}" });
         }
     }
 }
