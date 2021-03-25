@@ -1,5 +1,6 @@
 ﻿using SimpleApp.Models;
 using Xunit;
+
 namespace SimpleApp.Tests
 {
     public class ProductTests

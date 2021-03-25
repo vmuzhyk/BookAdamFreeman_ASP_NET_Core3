@@ -3,11 +3,12 @@ using SimpleApp.Models;
 
 namespace SimpleApp.Controllers
 {
-    public class HomeController :Controller
+    public class HomeController : Controller
     {
-        public ViewResult Index() 
-        { 
-            return View(Product.GetProducts()); 
+        public IDataSource dataSource = new ProductDataSource();
+        public ViewResult Index()
+        {
+            return View(dataSource.Products);
         }
     }
 }
