@@ -137,3 +137,4 @@ D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore.Tests\o
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.dll
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.pdb
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.genruntimeconfig.cache
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore.Tests\bin\Debug\netcoreapp3.1\libman.json
