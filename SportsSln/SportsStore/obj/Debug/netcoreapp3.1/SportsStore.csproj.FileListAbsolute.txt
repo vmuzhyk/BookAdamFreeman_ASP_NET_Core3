@@ -67,3 +67,7 @@ D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Deb
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\bin\Debug\netcoreapp3.1\libman.json
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
 D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\Cart.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_CartLayout.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Work\Repositories\BookAdamFreeman_ASP_NET_Core3\SportsSln\SportsStore\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
